@@ -1,0 +1,117 @@
+/* --- CONDICIÓN GENERAL OBLIGATORIA --- */
+.caja-obligatoria {
+    /* MARGIN (Lados individuales) */
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    border-top: 2px solid #3498DB;
+    border-right: 4px dotted #2C3E50;
+    border-bottom: 6px double #2ECC71;
+    border-left: 3px dashed #9B59B6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+}
+
+/* Estilos para la Portada */
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #F8F9FA;
+    color: #2C3E50;
+}
+
+/* Estilos Ejercicio 1 */
+.tarjeta-ejercicio1 {
+    min-width: 300px;
+    min-height: 150px;
+    background-color: #EBF5FB;
+    color: #1A5276;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    border-top: 2px solid #3498DB;
+    border-right: 4px dotted #2C3E50;
+    border-bottom: 6px double #2ECC71;
+    border-left: 3px dashed #9B59B6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+}
+
+/* Estilo para la palabra resaltada dentro del span */
+.tarjeta-ejercicio1 span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Estilos Ejercicio 2 */
+.caja-ejercicio-2 {
+    min-width: 300px;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    border-top: 2px solid #3498DB;
+    border-right: 4px dotted #2C3E50;
+    border-bottom: 6px double #2ECC71;
+    border-left: 3px dashed #9B59B6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    background-color: #F9F6F0;
+}
+
+/* Estilos Ejercicio 3 */
+.caja-estructura {
+    background-color: #E8F8F5;
+    color: #186A3B;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    border-top: 2px solid #3498DB;
+    border-right: 4px dotted #2C3E50;
+    border-bottom: 6px double #2ECC71;
+    border-left: 3px dashed #9B59B6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+}
+
+/* Alineación para que Article y Aside queden lado a lado */
+.contenedor-principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-principal article {
+    flex: 2;
+}
+
+.contenedor-principal aside {
+    flex: 1;
+}
